@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <Hero />
-      <Diretoria />
-      <Localizacao />
+      {/* <Diretoria /> */}
+      {/* <Localizacao /> */}
       <div className="h-40 bg-white"></div>
     </main>
   );

@@ -76,12 +76,13 @@ const Hero = () => {
           {/* Pessoas e aperto de mão */}
           <motion.div
             variants={content}
-            className="bg-gradient-to-l from-teal-200 to-teal-500   rounded-lg md:col-span-2 row-span-2"
+            className="bg-gradient-to-l from-teal-200 to-teal-500  rounded-lg md:col-span-2 row-span-2"
           >
-            <div className="flex w-full min-h-24 gap-4 justify-center items-center">
+            <div className="flex w-full min-h-24 h-full gap-4 justify-center items-center">
+              {/* <div className="flex w-full min-h-24 justify-around items-center"> */}
+
               <Image src={MembersImg} alt="Grafico" width={60} />
               <Image src={HandshakeImg} alt="Grafico" width={60} />
-              {/* <Image src={paymentsImg} alt="Grafico" width={60} /> */}
             </div>
           </motion.div>
           {/* About */}
@@ -116,7 +117,7 @@ const Hero = () => {
             variants={content}
             className="grid bg-gradient-to-l from-teal-200 to-teal-500 rounded-lg md:col-span-2 row-span-2 min-h-24"
           >
-            <div className="flex w-full min-h-24  justify-around items-center">
+            <div className="flex w-full min-h-24 justify-around items-center">
               <Image
                 src={WhatsImg}
                 alt="Grafico"
